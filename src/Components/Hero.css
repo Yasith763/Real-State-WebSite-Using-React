@@ -1,0 +1,131 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 35px;
+    padding: 50px 50px;
+}
+
+.hero img {
+    margin-top: 0; /* Resetting the margin since we are aligning horizontally */
+    max-width: 50%; /* Adjust image size as needed */
+    height: auto;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.hero h1 {
+    text-align: center;
+    width: 100%; /* Full width of the content section */
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: red;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 20px 0; /* Add some margin to separate it from the heading */
+}
+
+.hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: red;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to separate it from the paragraph */
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .hero-content {
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero h1 {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .hero p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .hero-connect {
+        padding: 20px 30px;
+        border-radius: 40px;
+        margin-top: 20px; /* Ensure spacing is maintained on smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .hero-content {
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero h1 {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .hero p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0;
+    }
+
+    .hero-connect {
+        padding: 20px 30px;
+        border-radius: 40px;
+        margin-top: 20px; /* Ensure spacing is maintained on smaller screens */
+    }
+}

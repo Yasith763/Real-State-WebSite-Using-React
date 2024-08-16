@@ -1,0 +1,79 @@
+
+.property-listings-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+    position: relative;
+    z-index: 1;
+}
+.title2{
+    position: relative;
+}
+.title2 h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.title2 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* Add a dark overlay to darken the image */
+.property-listings-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency for darker effect */
+    z-index: -1;
+}
+
+/* Make text stand out on dark background */
+.property-listings-text h1{
+    color: white;
+}
+.property-listings-text h2 {
+    color: red;
+}
+
+.property-listings-text p {
+    color: white; /* Change text color to white for better visibility */
+    line-height: 1.6;
+    font-size: 22px;
+    margin: 20px;
+    padding: 20px;
+}
+.search-now-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-now-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-now-button:hover {
+    background-color: red;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+

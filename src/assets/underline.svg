@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.994" height="3.812" viewBox="0 0 262 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec1a1a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Background" width="262" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAECAYAAAAJbvaQAAAAHUlEQVQokWP8////f4ZBBpgGm4MYRh1FLGBgYAAASOUEBNZy6+4AAAAASUVORK5CYII="/>
+  <path class="cls-1" d="M0-1H260V26H0V-1Z"/>
+</svg>

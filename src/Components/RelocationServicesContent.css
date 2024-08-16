@@ -1,0 +1,106 @@
+/* RelocationServicesContent.css */
+.title{
+    position: relative;
+}
+.title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 20px;
+    text-align:right;
+}
+.title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.relocation-services-page {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #f7f7f7;  /* Light text color */
+    font-family: 'Arial', sans-serif;
+  }
+  h2 {
+    color: red;  /* Light text color for headers */
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #ddd;  /* Slightly lighter than the background */
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .relocation-info{
+    margin-bottom: 2rem;
+  }
+  
+  .how-it-works{
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 22px;
+  }
+  
+  ul.service-benefits {
+    list-style-type: disc;
+    margin-left: 2rem;
+    color: #ccc;  /* Light text for list items */
+    text-align: left;
+    font-size: 22px;
+  }
+  
+  ol {
+    margin-left: 2rem;
+    color: #ccc;
+  }
+  
+  li {
+    margin-bottom: 0.75rem;
+  }
+  
+  strong {
+    color: #fff;  /* Strong emphasis text in full white */
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .c-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .c-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    background-color: red; /* Blue background color */
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 22px;
+  }
+  
+  .c-button:hover {
+    background-color: red; /* Darker blue on hover */
+    transform: scale(1.25);
+    transition: 0.3s;
+  }
+  
+
+  
+

@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.header-connect {
+  display: flex;
+  justify-content: flex-start; /* Aligns the button to the left */
+  padding: 10px 20px; /* Adds padding around the header */
+  background-color: black; /* Light background color for the header */
+}
+
+.header-connect button {
+  background-color: red; /* Bootstrap primary color for the button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header-connect button:hover {
+  background-color: red; /* Darker shade of blue on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+
+
+
+  
+  

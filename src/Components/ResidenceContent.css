@@ -1,0 +1,99 @@
+.residences-page {
+    padding: 0; /* Remove padding */
+    margin: 0;  /* Remove margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin: 0;  /* Remove margin */
+    padding: 20px 0; /* Optional padding for breathing space, adjust as needed */
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .page-description {
+    text-align: center;
+    margin: 0 20px 40px 20px; /* Set left and right margins to 20px, bottom margin to 40px, no top margin */
+    padding: 10px 15px; /* Optional padding for left and right, adjust as needed */
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .about-title{
+    position: relative;
+}
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+  /* Residence Grid */
+  .residence-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    height: 100%; /* Make sure the card takes up full height */
+  }
+  
+  .residence-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .residence-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  /* Custom Button Styles */
+button.btn-primary {
+    background-color: red;  /* Default Bootstrap primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }  
+button.btn-primary:hover {
+    background-color: red;  /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    color: #fff;
+    cursor: pointer;
+  } 
+  /* Ensure grid with 3 residences per row */
+  @media (min-width: 992px) {
+    .residences-page .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .residences-page .col-md-4 {
+      max-width: 32%; /* Allow for 3 items per row with some margin */
+      margin-bottom: 30px; /* Ensure some spacing between rows */
+    }
+  }
+  
+  /* Handle 2 items per row on medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .residences-page .col-md-4 {
+      max-width: 48%; /* Allow for 2 items per row */
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Handle 1 item per row on smaller screens */
+  @media (max-width: 767px) {
+    .residences-page .col-md-4 {
+      max-width: 100%; /* Full width on smaller screens */
+      margin-bottom: 30px;
+    }
+  }
+  
